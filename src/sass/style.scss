@@ -5,6 +5,7 @@
     position: relative;
     max-width: 1024px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 @import "base/variables";
@@ -12,3 +13,5 @@
 @import "blocks/promo";
 @import "blocks/buttons";
 @import "blocks/forms";
+@import "blocks/company";
+@import "blocks/advantages";

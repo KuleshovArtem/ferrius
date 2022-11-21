@@ -1,0 +1,24 @@
+.advantages {
+    height: auto;
+    background-color: $color-main;
+    &__wrapper {
+        // display: flex;
+        // flex-direction: column;
+    }
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 33%;
+    }
+}
+
+.numbers {
+    padding: 10px 0;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+}
