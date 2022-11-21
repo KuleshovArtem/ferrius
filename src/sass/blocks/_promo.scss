@@ -1,5 +1,23 @@
 .promo {
     margin-top: 80px;
     height: 650px;
-    background: url(../../img/promo-bg.jpg) center (center/cover) no-repeat;
+    background: url(../../img/promo-b1g.jpg) center (center/cover) no-repeat;
+    &__wrapper {
+        padding: 90px 0;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__header {
+        font-weight: 900;
+        font-size: 40px;
+        color: #FFFFFF;
+    }
+    &__subheader {
+        width: 100%;
+        font-weight: 500;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+
 }
