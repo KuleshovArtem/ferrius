@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -80,68 +81,83 @@
     </section>
     <section class="advantages">
         <div class="container">
-            <div class="advantages__wrapper">
-                <div class="numbers">
-                    <div class="numbers__items">
-                        <div class="numbers__item">
-                            <div class="numbers__title">5 ЛЕТ</div>
-                            <div class="numbers__descr">на рынке</div>
-                        </div>
-                        <div class="numbers__item">
-                            <div class="numbers__title">500 тонн</div>
-                            <div class="numbers__descr">металлоконструкций в месяц</div>
-                        </div>
-                        <div class="numbers__item">
-                            <div class="numbers__title">1200 М&sup2</div>
-                            <div class="numbers__descr">площадь производства</div>
-                        </div>
+            <div class="numbers">
+                <div class="numbers__items">
+                    <div class="numbers__item">
+                        <div class="numbers__title">5 ЛЕТ</div>
+                        <div class="numbers__descr">на рынке</div>
+                    </div>
+                    <div class="numbers__item">
+                        <div class="numbers__title">500 тонн</div>
+                        <div class="numbers__descr">металлоконструкций в месяц</div>
+                    </div>
+                    <div class="numbers__item">
+                        <div class="numbers__title">1200 М&sup2</div>
+                        <div class="numbers__descr">площадь производства</div>
                     </div>
                 </div>
-                <div class="advantages__items">
-                    <div class="advantages__item">
-                        <div class="advantages__img">
-                            <img src="icons/advantages/individual-approach.svg" alt="individual approach">
-                        </div>
-                        <div class="advantages__descr">Гибкий подход к каждому клиенту</div>
+            </div>
+            <div class="advantages__items">
+                <div class="advantages__item">
+                    <div class="advantages__img">
+                        <img src="icons/advantages/individual-approach.svg" alt="individual approach">
                     </div>
-                    <div class="advantages__item">
-                        <div class="advantages__img">
-                            <img src="icons/advantages/production.svg" alt="production">
-                        </div>                  
-                        <div class="advantages__descr">Отлаженное производство</div>
-                    </div>
-                    <div class="advantages__item">
-                        <div class="advantages__img">
-                            <img src="icons/advantages/regular-customers.svg" alt="regular-customers">
-                        </div>
-                        <div class="advantages__descr">Скидки постоянным клиентам</div>
-                    </div>
-                    <div class="advantages__item">
-                        <div class="advantages__img">
-                            <img src="icons/advantages/complex-manufacturing.svg" alt="complex-manufacturing">
-                        </div>
-                        <div class="advantages__descr">Изготовление конструкций любой сложности</div>
-                    </div>
-                    <div class="advantages__item">
-                        <div class="advantages__img">
-                            <img src="icons/advantages/quality-control.svg" alt="quality-control">
-                        </div>
-                        <div class="advantages__descr">Контроль качества</div>
-                    </div>
-                    <div class="advantages__item">
-                        <div class="advantages__img">
-                            <img src="icons/advantages/logistics.svg" alt="logistics">
-                        </div>
-                        <div class="advantages__descr">Быстрая поставка материалов</div>
-                    </div>
+                    <div class="advantages__descr">Гибкий подход к каждому клиенту</div>
                 </div>
+                <div class="advantages__item">
+                    <div class="advantages__img">
+                        <img src="icons/advantages/production.svg" alt="production">
+                    </div>                  
+                    <div class="advantages__descr">Отлаженное производство</div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__img">
+                        <img src="icons/advantages/regular-customers.svg" alt="regular-customers">
+                    </div>
+                    <div class="advantages__descr">Скидки постоянным клиентам</div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__img">
+                        <img src="icons/advantages/complex-manufacturing.svg" alt="complex-manufacturing">
+                    </div>
+                    <div class="advantages__descr">Изготовление конструкций любой сложности</div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__img">
+                        <img src="icons/advantages/quality-control.svg" alt="quality-control">
+                    </div>
+                    <div class="advantages__descr">Контроль качества</div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__img">
+                        <img src="icons/advantages/logistics.svg" alt="logistics">
+                    </div>
+                    <div class="advantages__descr">Быстрая поставка материалов</div>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <section class="production">
+        <div class="container">
+            <h2 class="production__title">НАШЕ ПРОИЗВОДСТВО</h2>
+            <div class="production__wrapper">
+                <div class="production__slider">
+                    <div><img src="img/production/production1.jpg" alt="production"></div>
+                    <div><img src="img/production/production2.jpg" alt="production"></div>
+                    <div><img src="img/production/production3.jpg" alt="production"></div>
+                    <div><img src="img/production/production4.jpg" alt="production"></div>
+                    <div><img src="img/production/production5.jpg" alt="production"></div>
+                    <div><img src="img/production/production6.jpg" alt="production"></div>
+                </div>
+                <button type="button" class="prev"> <img src="icons/left-arrow.svg"></button>
+                <button type="button" class="next"> <img src="icons/right-arrow.svg"></button>
             </div>
             
         </div>
     </section>
 
 
-
+    <script src="js/tiny-slider.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
