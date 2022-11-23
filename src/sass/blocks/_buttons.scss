@@ -10,11 +10,16 @@
     &:active{
         box-shadow: 3px 3px 15px $color-main;
     }
-    &__submit {
+    &_submit {
         margin-top: 15px;
         width: 250px;
         &:active{
             box-shadow: 3px 3px 15px $color-main;
         }
+    }
+    &_consultation {
+        margin-left: 50px;
+        height: 50px;
+        width: 200px;
     }
 }
