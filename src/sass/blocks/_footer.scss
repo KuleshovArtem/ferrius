@@ -1,5 +1,5 @@
 .footer {
-    padding: 50px 0 20px 0;
+    padding: 50px 20px 20px 20px;
     height: auto;
     background-color:#414144;
     &__wrapper {
@@ -21,6 +21,9 @@
         font-size: 15px;
         color: #E8E8E8;
         text-decoration: none;
+        &:hover {
+            color: #E8E8E8; 
+        }
     }
     &__contacts {
         width: 30%;
@@ -31,6 +34,9 @@
         font-size: 32px;
         color: #E8E8E8;
         text-decoration: none;
+        &:hover {
+            color: #E8E8E8; 
+        }
     }
     &__phone {
         display: block;
@@ -39,6 +45,9 @@
         font-size: 28px;
         color: #E8E8E8;
         text-decoration: none;
+        &:hover {
+            color: #E8E8E8; 
+        }
     }
     &__info {
         width:30%;
