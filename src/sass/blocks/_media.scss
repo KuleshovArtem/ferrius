@@ -284,6 +284,8 @@
         }
     }
     .requisites {
+        margin-top: 50px;
+        padding-top: 20px;
         &__item {
             margin-bottom: 35px;
         }
@@ -450,7 +452,7 @@
         }
     }
     .requisites {
-
+        margin-top: 180px;
         &__item {
             margin-bottom: 20px;
             flex-direction: column;
