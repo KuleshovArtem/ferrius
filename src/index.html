@@ -17,10 +17,10 @@
         <nav class="menu">
             <div class="container">
                 <ul class="menu__wrapper">
-                    <li class="menu__item"><a href="#" class="menu__link">О НАС</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">ПРЕИМУЩЕСТВА</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">ПРОИЗВОДСТВО</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">КОНТАКТЫ</a></li>
+                    <li class="menu__item"><a href="#company" class="menu__link">О НАС</a></li>
+                    <li class="menu__item"><a href="#advantages" class="menu__link">ПРЕИМУЩЕСТВА</a></li>
+                    <li class="menu__item"><a href="#production" class="menu__link">ПРОИЗВОДСТВО</a></li>
+                    <li class="menu__item"><a href="#footer" class="menu__link">КОНТАКТЫ</a></li>
                 </ul>
             </div>
 
@@ -40,7 +40,10 @@
                         <a href="mailto:info@ferrius.ru" class="subheader__email">info@ferrius.ru</a>
                         <a href="tel:+74959215521" class="subheader__phone">+7(495)921-55-21</a>
                     </div>
-                    <button class="button">Заказать звонок</button>
+                    <form action="#consultation">
+                        <button class="button" >Заказать звонок</button>
+                    </form>
+                    
                 </div>
             </div>
 
@@ -62,7 +65,7 @@
         </div>
     </section>
 
-    <section class="company">
+    <section class="company" id="company">
         <div class="container">
             <div class="company__wrapper">
                 <div class="company__descr">
@@ -78,7 +81,7 @@
             </div>
         </div>
     </section>
-    <section class="advantages">
+    <section class="advantages" id="advantages">
         <div class="container">
             <div class="numbers">
                 <div class="numbers__items">
@@ -136,7 +139,7 @@
             </div>            
         </div>
     </section>
-    <section class="production">
+    <section class="production" id="production">
         <div class="container">
             <h2 class="title">НАШЕ ПРОИЗВОДСТВО</h2>
             <div class="production__wrapper">
@@ -180,7 +183,7 @@
                 </div>
         </div>
     </section>
-    <section class="consultation">
+    <section class="consultation" id="consultation">
         <div class="container">
             <h2 class="title">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</h2>
             <div class="consultation__subtitle">Оставьте свои контактные данные, и мы презвоним вам в ближайшее время</div>
@@ -192,15 +195,15 @@
             <div class="consultation__descr">Нажимая на кнопку "Заказать звонок" Вы <a href="#">соглашаетесь на обработку</a> Ваших персональных данных компанией</div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__wrapper">
                 <ul class="footer__links">
-                    <li><a href="#" class="footer__link">О нас</a></li>
-                    <li><a href="#" class="footer__link">Преимущества</a></li>
-                    <li><a href="#" class="footer__link">Производство</a></li>
+                    <li><a href="#company" class="footer__link">О нас</a></li>
+                    <li><a href="#advantages" class="footer__link">Преимущества</a></li>
+                    <li><a href="#production" class="footer__link">Производство</a></li>
                     <li><a href="#" class="footer__link">Реквизиты</a></li>
-                    <li><a href="#" class="footer__link">Контакты</a></li>
+                    <!-- <li><a href="#" class="footer__link">Контакты</a></li> -->
                 </ul>
                 <div class="footer__contacts">
                     <a href="mailto:info@ferrius.ru" class="footer__email">info@ferrius.ru</a>
