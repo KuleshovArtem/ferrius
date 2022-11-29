@@ -1,13 +1,22 @@
 .promo {
     width: 100%;
     margin-top: 80px;
-    height: 650px;
+    min-height: 650px;
     background: url(../img/promo-b1g.jpg) center (center/cover) no-repeat;
     &__wrapper {
         padding: 90px 20px;
         width: 350px;
         display: flex;
         flex-direction: column;
+        .error {
+            border: 2px solid red;
+        }
+        label.error {
+            color:#FFFFFF;
+            border: none;
+            text-align: center;
+            margin-top: 10px;
+        }
     }
     &__header {
         font-weight: 900;

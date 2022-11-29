@@ -1,29 +1,4 @@
-const slider = tns({
-    container: '.production__slider',
-    items: 1,
-    slideBy: 'page',
-    autoplay: true,
-    autoplayButtonOutput: false,
-    gutter: 30,
-    edgePadding: 10,
-    nav: false,
-    controls: false,
-    responsive: {
-        767: {
-          items: 2
-        },
-      }
-});
-
-document.querySelector('.next').addEventListener('click', function () {
-    slider.goTo('next');
-});
-
-document.querySelector('.prev').addEventListener('click', function () {
-    slider.goTo('prev');
-});
-
-//menu hamburger
+// menu hamburger
 
 window.addEventListener('DOMContentLoaded', () => {
     const menu = document.querySelector('.menu__wrapper'),
@@ -42,3 +17,40 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+(function($) {
+    $(function() {
+
+        // modal
+        $('[data-modal=callback]').on('click', function () {
+            $('.overlay, #consultation-modal').fadeIn();
+        });
+
+        $('.modal__close').on('click', function () {
+            $('.overlay, #consultation-modal, #thanks').fadeOut();
+        });
+
+        function validateForms (form) {
+            $(form).validate({
+                rules: {
+                    name: {
+                        required: true,
+                        minlength: 2
+                      },   
+                    phone: 'required',
+                },
+                messages: {
+                    name: {
+                        required: "Пожалуйста, введите свое имя",
+                        minlength: jQuery.validator.format("Ввидите минимум {0} символа!")
+                    } ,
+                    phone: "Пожалуйста, введите свой номер телефона",
+                  }
+            });
+        }
+        validateForms('#promo-form');
+        validateForms('#consultation-modal form');
+
+    });
+})(jQuery);

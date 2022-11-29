@@ -358,6 +358,17 @@
                 width: calc(100vw - 40px);
             }
         }
+        &_modal {
+            &__subtitle {
+                font-size: 17px;
+            }
+            width: calc(90vw - 40px);
+            margin: 20px auto;
+            input {
+                margin-bottom: 16px;    
+                width: 100%
+            }
+        }
     }
     .button {
         &_submit {
@@ -369,7 +380,10 @@
             width: calc(100vw - 40px);
             height: 50px;
             font-size: 22px;
-        } 
+        }
+        &_modal {
+            width: 100%;
+        }
     }
     .company {
         &__wrapper {
@@ -463,6 +477,15 @@
         &__text {
             margin-top: 10px;
             width: 100%;
+        }
+    }
+    .modal {
+        width: 90vw;
+        transform: translate(-50%,-50%);
+        padding: 40px 10px;
+        &__close {
+            right: 6px;
+            top: 6px;
         }
     }
 
