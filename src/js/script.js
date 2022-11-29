@@ -52,5 +52,7 @@ window.addEventListener('DOMContentLoaded', () => {
         validateForms('#promo-form');
         validateForms('#consultation-modal form');
 
+        $('input[name=phone]').mask("+7 (999) 999-99-99");
+
     });
 })(jQuery);
