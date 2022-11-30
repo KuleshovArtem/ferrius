@@ -171,12 +171,15 @@
         height: 40px;
         font-size: 20px;
         &_submit {
-            width: 250px;
+            width: 250px;   
         }
         &_consultation {
-            font-size: 14px;
-            margin-left: 10px;
-            width: 180px;
+            font-size: 26px;
+            margin: 20px auto;
+            height: 60px;
+            width: 400px;
+            // margin-left: 10px;
+            // width: 180px;
         }
     }
 
@@ -491,6 +494,10 @@
             margin-top: 0px;
             margin-bottom: 0px;
         } 
+    }
+    .pageup {
+        bottom: 30px;
+        right: 30px;
     }
 
         
