@@ -48,6 +48,17 @@
         text-align: center;
         margin-bottom: 10px;
     } 
+    &__privacy-policy {
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 12px; 
+        text-align: center;
+        color: #0D0D0D;
+        a {
+            color: #0D0D0D;  
+        }
+        
+    }
 }
 
 #consultation-modal, #thanks {

@@ -85,6 +85,11 @@
             margin-bottom: 20px;
         }
     }
+    .privacy-policy {
+        &__subtitle {
+            font-size: 26px;
+        }
+    }
 }
 @media (max-width: 767px) {
     .header {
@@ -137,7 +142,7 @@
         }
         &__active {
             span {
-                margin-bottom: -2px;
+                margin-bottom: -2px; 
                     &:nth-last-child(1) {
                         transform: translateY(3px) rotate(-45deg)
                     }
@@ -499,6 +504,8 @@
         bottom: 30px;
         right: 30px;
     }
-
-        
+    .privacy-policy {
+        padding: 50px 10px;
+        margin-top: 180px;
+    }
 }

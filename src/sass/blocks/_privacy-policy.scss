@@ -1,0 +1,30 @@
+.privacy-policy {
+    margin-top: 80px;
+    padding: 40px 20px;
+    &__item {
+        margin-top: 24px;
+    }
+    &__subtitle {
+        font-weight: 500;
+        font-size: 28px;
+        color: #0D0D0D;
+    }
+    &__descr {
+        font-weight: 400;
+        font-size: 16px;
+        color: #0D0D0D;
+    }
+    &__ol {
+        margin-top: 16px;
+        list-style-type: none;
+        li {
+            margin-bottom: 8px;
+            font-weight: 400;
+            font-size: 16px;
+            color: #0D0D0D;
+            span {
+                font-weight: 500;
+            }
+        }
+    }
+}
